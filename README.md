@@ -1,47 +1,41 @@
 # HTML y CSS
 
-Este repositorio contiene código relacionado a aprender "HTML y CSS"
-
-El repositorio contiene código específico relacionado con los temas mencionados. Además, te invito a que, si encuentras algún tema que no tenga código asociado, realices una solicitud de extracción (PR) para agregarlo. Recuerda que aprender a programar implica práctica e investigación constante. Nunca dejes de aprender y no dejes que nada obstaculice tus sueños. Lo más importante son tus aportaciones y comentarios..
+The repository contains specific code related to the above topics. In addition, I invite you, if you find a topic that does not have associated code, to make a pull request (PR) to add it. Remember that learning to program involves constant practice and research. Never stop learning and don't let anything hinder your dreams.
 
 
 ### **HTML**
-- Introducción a HTML.
-- Anatomía de una web.
-- Estructura.
-- Editores de Código.
-- Elementos y etiquetas en HTML.
-- Documentación Web.
-- Indentación.
-- Imágenes.
-- Enlaces.
-- Listas ordenadas y no ordenadas.
-- Formato de texto.
-- Formularios.
-- Botones y casillas de verificación.
-- Elementos `<div>`
-- Elementos `<head>`
-- Pie de página.
-- Semántica HTML.
+- Introduction to HTML.
+- Anatomy of a webpage.
+- Structure.
+- HTML Elements and Tags.
+- Web Documentation.
+- Indentation.
+- Images.
+- Links.
+- Ordered and Unordered Lists.
+- Text Formatting.
+- Forms.
+- Buttons and Checkboxes.
+- <div> Elements.
+- <head> Elements.
+- Footer.
+- HTML Semantics.
 
 ### **CSS**
-- Introducción a CSS.
-- Estilos en línea, el bloque `<style>`  y archivos CSS.
-- Pseudo clases y Pseudo elementos.
-- Box model.
-- Herencia.
-- Especificidad en selectores.
-- Combinadores.
-- Formato de texto (tamaño, tipo de letra, respaldos).
-- Google Fonts.
-- Imágenes.
-- Padding y Margin.
-- Selectores de atributo.
-- Unidades absolutas y relativas.
-- Colores HEX y RGB en CSS.
-- Variables CSS.
+- Introduction to CSS.
+- Inline Styles, <style> Block, and CSS Files.
+- Pseudo-classes and Pseudo-elements.
+- Box Model.
+- Inheritance.
+- Specificity in Selectors.
+- Combinators.
+- Text Formatting (size, font type, backups).
+- Attribute Selectors.
+- Absolute and Relative Units.
+- HEX and RGB Colors in CSS.
+- CSS Variables.
 - Position.
-- Tipos de display.
+- Display.
 
 ### **Responsive Design**
 - Introducción a Responsive Design.
