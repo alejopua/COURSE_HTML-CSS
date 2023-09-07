@@ -25,21 +25,21 @@ Frameworks help us in building our project by providing pre-written code snippet
 - Tailwind CSS
 - Foundation
 
-### Frameworks y Bibliotecas JavaScript
+### Frameworks JS
 These are tools that allow us to scale our project to production more quickly and with greater interactivity. Some of them are:
 
 - React
 - Angular
 - Vue
 
-### Preprocesadores CSS
+### CSS preprocessors
 It's a different way of writing CSS. Some call it "CSS with superpowers."
 
 - Less
 - Stylus
 - Sass
 
-### Compiladores y Empaquetadores
+### Compilers and Packagers
 These programs enable us to use the latest versions of JavaScript (it's always a good practice to use the latest JS versions) through a compilation process for the browser to understand.
 
 - Babel
@@ -88,7 +88,7 @@ Cloud infrastructure is essential for deployment:
 
 ## FullStack
 
-- A full-stack developer combines various tools and knowledge from both frontend and backend development. They work with libraries, frameworks, and programming languages. A full-stack developer doesn't know everything 100%.
+A full-stack developer combines various tools and knowledge from both frontend and backend development. They work with libraries, frameworks, and programming languages. A full-stack developer doesn't know everything 100%.
 
 
 ***A FullStack developer understands the whole process, but does not necessarily know everything.***
