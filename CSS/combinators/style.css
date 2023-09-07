@@ -1,0 +1,64 @@
+/* Los combinators -> nos permiten combinar multiples selectores y crear una mayor especificidad*/
+/* Los combinators son: */
+/* 1. Hermano adyacente o cercano -> +  */
+/* 2. Hermano general -> ~ */
+/* 3. Descendiente -> espacio */
+/* 4. Selector de hijo -> > */
+
+
+header {
+    & h1 {
+        font-size: 3.2rem;
+        font-weight: bold;
+        color: blueviolet;
+    }
+}
+
+main {
+    background-color: papayawhip;
+    border: 1rem solid palevioletred;
+    padding: 1rem;
+    height: 50rem;
+    font-size: 1.6rem;
+    & section {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+        border: 1rem solid green;
+    }
+
+}
+
+footer {
+    & p {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: blueviolet;
+    }
+}
+/*
+
+h2 + p {
+    Aplicale el color rojo a todas las etiquetas p que esten cerca de una etiqueta h2 
+    color: red;
+}
+*/
+
+/* h2 ~ p {
+    Aplicale el color azul a todas las etiquetas p que tengan como hermanos generales una etiqueta h2
+    color: blue
+} */
+
+/* main p {
+    Aplicale el color verde a todas las etiquetas p que sean descendientes de una etiqueta main
+    color: cornflowerblue;
+} */
+
+section > p {
+    /* Aplicale el color rojo a todas las etiquetas p que sean hijos directos de una etiqueta section */
+    color: red;
+}
+
+
+/* EM -> Es un acrónimo de elemento y lo que hace es tomar el tamaño de fuente que tenga el padre directo */

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aprende desde cero a crear el futuro web con nuestros Cursos Online Profesionales de Tecnología. 🚀¡Cursos de Desarrollo, Diseño, Marketing y Negocios!">
+        <meta name="robots" content="index, follow">
+        <title>My Landing Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Merqueate Forms</h1>
+        </header>
+        <main>
+            <!-- formulario -->
+            <h2>Contact the fruit store</h2>
+
+            <form action="">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" placeholder="Escribe tu nombre" autocomplete="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu email" autocomplete="email" required>
+                </div>
+                <div>
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Escribe tu teléfono" autocomplete="tel" required>
+                </div>
+                <div>
+                    <label for="date-purchase">Fecha y hora de compra:</label>
+                    <input type="datetime-local" name="date-purchase" id="date-purchase" required>
+                </div>
+
+                <!-- opción para listas 1 -->
+                <div>
+                    <label for="fruit">Articulo uno:</label>
+                    <select name="fruit" id="fruit" required>
+                        <option value="pineapple">Piña</option>
+                        <option value="mango">Mango</option>
+                        <option value="lettuce">Lechuga</option>
+                        <option value="tomato">Tomate</option>
+                        <option value="chicken">Pollo</option>
+                        <option value="beef">Res</option>
+                    </select>
+                </div>
+                <!-- opción para listas 2 -->
+                <div>
+                    <label for="frutas">Articulo dos:</label>
+                    <input list="fruta-list" id="frutas">
+                    <datalist id="fruta-list">
+                        <option value="Piña">
+                        <option value="Mango">
+                        <option value="Lechuga">
+                        <option value="Tomate">
+                        <option value="Pollo">
+                        <option value="Res">
+                    </datalist>
+                </div>
+
+                <div>
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" name="quantity" id="quantity" placeholder="Cantidad de fruta" required>
+                <div>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>Created with love by alejopua</p>
+        </footer>
+    </body>
+</html>

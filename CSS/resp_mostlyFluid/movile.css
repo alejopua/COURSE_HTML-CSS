@@ -1,0 +1,170 @@
+.header {
+    font-size: 2.1rem;
+    background-color: gold;
+
+    & .nav-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 6rem;
+        padding: 0.5rem 0;
+
+        & .logo {
+            font-weight: bold;
+            color: blueviolet;
+        }
+
+        & .menu {
+            & .menu-content {
+                & .menu-list {
+                    display: flex;
+                    gap: 1.1rem;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+main {
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+
+    & .box-container {
+        border: 0.3rem solid black;
+        display: flex;
+        flex-wrap: wrap;
+
+        & .box-item {
+            margin: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 15rem;
+            flex-basis: 21rem;
+            flex-grow: 1;
+            background-color: blueviolet;
+        }
+
+    }
+}
+
+.footer {
+    padding: 1.5rem 0;
+    text-align: center;
+    & p {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: blueviolet;
+    }
+}
+
+@media screen and (min-width: 429px) {
+    .header {
+        height: 7dvh;
+        & .nav-header {
+            height: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 1rem;
+            margin: 0 1rem;
+
+            & .menu {
+                & .menu-content {
+                    & .menu-list {
+                        gap: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        & .box-container {
+            height: 88dvh;
+            & .box-item {
+                background-color: green;
+                flex-basis: auto;
+                flex-grow: 1;
+            }
+            & .box1 {
+                height: auto;
+            }
+            & .box2 {
+                height: auto;
+            }
+            & .box3 {
+                width: 100%;
+                height: auto;
+            }
+            & .box4 {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 835px) {
+    .header {
+        height: 10dvh;
+        & .nav-header {
+            height: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 1rem;
+            margin: 0 1rem;
+
+            & .menu {
+                & .menu-content {
+                    & .menu-list {
+                        gap: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        & .box-container {
+            height: 85dvh;
+            & .box-item {
+                background-color: palevioletred;
+                flex-basis: auto;
+                flex-grow: 1;
+            }
+            & .box1 {
+                width: 48%;
+                height: auto;
+            }
+            & .box2 {
+                width: 48%;
+                height: auto;
+            }
+            & .box3 {
+                width: 48%;
+                height: auto;
+            }
+            & .box4 {
+                width: 48%;
+                height: auto;
+            }
+        }
+    }
+
+    .footer {
+        height: 5dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        & p {
+            height: auto;
+        }
+    }
+}
+    
+
