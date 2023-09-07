@@ -2,10 +2,6 @@
 
 The repository contains specific code related to the above topics. In addition, I invite you, if you find a topic that does not have associated code, to make a pull request (PR) to add it. Remember that learning to program involves constant practice and research. Never stop learning and don't let anything hinder your dreams.
 
-# Perfiles de un Desarrollador Web
-
-Este README presenta una visión general de los perfiles de un desarrollador web, destacando las especializaciones en Frontend, Backend y FullStack, junto con las tecnologías y herramientas asociadas.
-
 ## Frontend
 
 This is the developer who handles the visual aspect, the client-side (browser) part.
